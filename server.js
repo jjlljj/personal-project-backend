@@ -1,6 +1,6 @@
 const express = require('express') 
 const mockData = require('./src/__mockdata__/mockData')
-
+const toneAnalyzer = require('./src/serviceHelper')
 
 const app = express()
 
