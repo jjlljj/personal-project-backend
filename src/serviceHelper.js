@@ -1,6 +1,5 @@
 const ToneAnalyzerV3 = require('watson-developer-cloud/tone-analyzer/v3')
 const key = require('./api/key')
-console.log(key)
 
 const toneAnalyzer = new ToneAnalyzerV3({
   username: key.username,
@@ -8,7 +7,6 @@ const toneAnalyzer = new ToneAnalyzerV3({
   version_date: '2016-05-19',
   url: 'https://gateway.watsonplatform.net/tone-analyzer/api/'
 })
-console.log(toneAnalyzer)
 
 toneAnalyzer.tone(
   {
