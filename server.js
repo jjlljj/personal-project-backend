@@ -24,6 +24,7 @@ app.post('/analyze', async (request, response) => {
 })
 
 app.post('/mockAnalyze', async(request, response) => {
+  const text = request.body.text
 
   response.setHeader('Content-Type', 'application/json')
   response.status(200).json(mockData)
