@@ -7,10 +7,6 @@ const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-// app.post('/analyze', (request, response) => {
-//   response.status(200).json({text: 'analyzed'});
-// })
-
 app.post('/analyze', async (request, response) => {
   const text = request.body.text
   response.setHeader('Content-Type', 'application/json')
@@ -27,19 +23,13 @@ app.post('/analyze', async (request, response) => {
 
 })
 
+app.post('/mockAnalyze', async(request, response) => {
+  const text = request.body.text
 
-
-
-  
-
-
+  response.setHeader('Content-Type', 'application/json')
+  response.status(200).json(mockData)
+})
 
 app.listen(3000, () => {
   console.log('express running localhost3000')
 })
-
-
-const middleFunc = (request, response, next) => {
-  
-  next()
-}
