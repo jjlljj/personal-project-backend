@@ -31,5 +31,5 @@ app.post('/mockAnalyze', async(request, response) => {
 })
 
 app.listen(3000, () => {
-  console.log('express running localhost3000')
+  console.log('express running on localhost:3000')
 })
