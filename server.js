@@ -27,19 +27,12 @@ app.post('/analyze', async (request, response) => {
 
 })
 
+app.post('/mockAnalyze', async(request, response) => {
 
-
-
-  
-
-
+  response.setHeader('Content-Type', 'application/json')
+  response.status(200).json(mockData)
+})
 
 app.listen(3000, () => {
   console.log('express running localhost3000')
 })
-
-
-const middleFunc = (request, response, next) => {
-  
-  next()
-}
