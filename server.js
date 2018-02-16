@@ -7,10 +7,6 @@ const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-// app.post('/analyze', (request, response) => {
-//   response.status(200).json({text: 'analyzed'});
-// })
-
 app.post('/analyze', async (request, response) => {
   const text = request.body.text
   response.setHeader('Content-Type', 'application/json')
