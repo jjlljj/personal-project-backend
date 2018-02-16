@@ -1,16 +1,16 @@
 const toneAnalyzer = require('./serviceHelper')
 
-function getToneAnalysis (text) {
-  return toneAnalyzer.tone(
+const getToneAnalysis = async (text) => {
+  return await toneAnalyzer.tone(
     {
       tone_input: text,
       content_type: 'text/plain'
     },
-    function(err, tone) {
+    (err, tone) => {
       if (err) {
         console.log(err);
       } else {
-        return JSON.stringify(tone, null, 2);
+        console.log(JSON.stringify(tone, null, 2));
       }
     }
   )
