@@ -15,6 +15,7 @@ app.post('/analyze', async (request, response) => {
     (err, tone) => {
       if (err) {
         console.log(err);
+        throw(err)
       } else {
         response.status(200).json(tone)
       }
