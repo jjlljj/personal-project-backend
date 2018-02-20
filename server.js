@@ -11,7 +11,7 @@ app.post('/analyze', async (request, response) => {
   const text = request.body.text
   response.setHeader('Content-Type', 'application/json')
 
-  toneAnalyzer.tone({ tone_input: text, content_type: 'text/plain'},
+  toneAnalyzer.tone({ tone_input: text, content_type: 'text/plain', sentences: true},
     (err, tone) => {
       if (err) {
         console.log(err);
@@ -31,5 +31,5 @@ app.post('/mockAnalyze', async(request, response) => {
 })
 
 app.listen(3000, () => {
-  console.log('express running localhost3000')
+  console.log('express running on localhost:3000')
 })
