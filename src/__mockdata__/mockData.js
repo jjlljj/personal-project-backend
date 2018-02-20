@@ -1,92 +1,275 @@
 const mockData = {
-  "sentences_tone": [
+  document_tone: {
+    tone_categories: [
+      {
+        tones: [
+          {
+            score: 0.036792,
+            tone_id: 'anger',
+            tone_name: 'Anger'
+          },
+          {
+            score: 0.009407,
+            tone_id: 'disgust',
+            tone_name: 'Disgust'
+          },
+          {
+            score: 0.021511,
+            tone_id: 'fear',
+            tone_name: 'Fear'
+          },
+          {
+            score: 0.519797,
+            tone_id: 'joy',
+            tone_name: 'Joy'
+          },
+          {
+            score: 0.236706,
+            tone_id: 'sadness',
+            tone_name: 'Sadness'
+          }
+        ],
+        category_id: 'emotion_tone',
+        category_name: 'Emotion Tone'
+      },
+      {
+        tones: [
+          {
+            score: 0.883842,
+            tone_id: 'analytical',
+            tone_name: 'Analytical'
+          },
+          {
+            score: 0,
+            tone_id: 'confident',
+            tone_name: 'Confident'
+          },
+          {
+            score: 0.60858,
+            tone_id: 'tentative',
+            tone_name: 'Tentative'
+          }
+        ],
+        category_id: 'language_tone',
+        category_name: 'Language Tone'
+      },
+      {
+        tones: [
+          {
+            score: 0.538638,
+            tone_id: 'openness_big5',
+            tone_name: 'Openness'
+          },
+          {
+            score: 0.607415,
+            tone_id: 'conscientiousness_big5',
+            tone_name: 'Conscientiousness'
+          },
+          {
+            score: 0.742128,
+            tone_id: 'extraversion_big5',
+            tone_name: 'Extraversion'
+          },
+          {
+            score: 0.408756,
+            tone_id: 'agreeableness_big5',
+            tone_name: 'Agreeableness'
+          },
+          {
+            score: 0.669397,
+            tone_id: 'emotional_range_big5',
+            tone_name: 'Emotional Range'
+          }
+        ],
+        category_id: 'social_tone',
+        category_name: 'Social Tone'
+      }
+    ]
+  },
+  sentences_tone: [
     {
-      "sentence_id": 0,
-      "text": "I was asked to sign a third party contract a week out from stay.",
-      "tones": []
-    },
-    {
-      "sentence_id": 1,
-      "text": "If it wasn't an 8 person group that took a lot of wrangling I would have cancelled the booking straight away.",
-      "tones": [
+      sentence_id: 0,
+      text: 'I hope that we can reach an amicable understanding and a solution to this problem.',
+      input_from: 0,
+      input_to: 82,
+      tone_categories: [
         {
-          "score": 0.695927,
-          "tone_id": "sadness",
-          "tone_name": "Sadness"
-        }
-      ]
-    },
-    {
-      "sentence_id": 2,
-      "text": "Bathrooms - there are no stand alone bathrooms.",
-      "tones": []
-    },
-    {
-      "sentence_id": 3,
-      "text": "Please consider this - you have to clear out the main bedroom to use that bathroom.",
-      "tones": [
-        {
-          "score": 0.711887,
-          "tone_id": "analytical",
-          "tone_name": "Analytical"
+          tones: [
+            {
+              score: 0.0308,
+              tone_id: 'anger',
+              tone_name: 'Anger'
+            },
+            {
+              score: 0.016122,
+              tone_id: 'disgust',
+              tone_name: 'Disgust'
+            },
+            {
+              score: 0.107343,
+              tone_id: 'fear',
+              tone_name: 'Fear'
+            },
+            {
+              score: 0.099391,
+              tone_id: 'joy',
+              tone_name: 'Joy'
+            },
+            {
+              score: 0.44646,
+              tone_id: 'sadness',
+              tone_name: 'Sadness'
+            }
+          ],
+          category_id: 'emotion_tone',
+          category_name: 'Emotion Tone'
         },
         {
-          "score": 0.898327,
-          "tone_id": "confident",
-          "tone_name": "Confident"
-        }
-      ]
-    },
-    {
-      "sentence_id": 4,
-      "text": "Other option is you walk through a different bedroom to get to its en-suite.",
-      "tones": []
-    },
-    {
-      "sentence_id": 5,
-      "text": "Signs all over the apartment - there are signs everywhere - some helpful - some telling you rules.",
-      "tones": [
-        {
-          "score": 0.555144,
-          "tone_id": "sadness",
-          "tone_name": "Sadness"
+          tones: [
+            {
+              score: 0.897416,
+              tone_id: 'analytical',
+              tone_name: 'Analytical'
+            },
+            {
+              score: 0,
+              tone_id: 'confident',
+              tone_name: 'Confident'
+            },
+            {
+              score: 0.647986,
+              tone_id: 'tentative',
+              tone_name: 'Tentative'
+            }
+          ],
+          category_id: 'language_tone',
+          category_name: 'Language Tone'
         },
         {
-          "score": 0.647986,
-          "tone_id": "tentative",
-          "tone_name": "Tentative"
+          tones: [
+            {
+              score: 0.523542,
+              tone_id: 'openness_big5',
+              tone_name: 'Openness'
+            },
+            {
+              score: 0.725246,
+              tone_id: 'conscientiousness_big5',
+              tone_name: 'Conscientiousness'
+            },
+            {
+              score: 0.15085,
+              tone_id: 'extraversion_big5',
+              tone_name: 'Extraversion'
+            },
+            {
+              score: 0.824779,
+              tone_id: 'agreeableness_big5',
+              tone_name: 'Agreeableness'
+            },
+            {
+              score: 0.442224,
+              tone_id: 'emotional_range_big5',
+              tone_name: 'Emotional Range'
+            }
+          ],
+          category_id: 'social_tone',
+          category_name: 'Social Tone'
         }
       ]
     },
     {
-      "sentence_id": 6,
-      "text": "Perhaps some people like this but It negatively affected our enjoyment of the accommodation.",
-      "tones": [
+      sentence_id: 1,
+      text: 'Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.',
+      input_from: 83,
+      input_to: 334,
+      tone_categories: [
         {
-          "score": 0.955608,
-          "tone_id": "tentative",
-          "tone_name": "Tentative"
-        }
-      ]
-    },
-    {
-      "sentence_id": 7,
-      "text": "Stairs - lots of them - some had slightly bending wood which caused a minor injury.",
-      "tones": [
-        {
-          "score": 0.560098,
-          "tone_id": "analytical",
-          "tone_name": "Analytical"
+          tones: [
+            {
+              score: 0.05153,
+              tone_id: 'anger',
+              tone_name: 'Anger'
+            },
+            {
+              score: 0.012946,
+              tone_id: 'disgust',
+              tone_name: 'Disgust'
+            },
+            {
+              score: 0.01819,
+              tone_id: 'fear',
+              tone_name: 'Fear'
+            },
+            {
+              score: 0.580387,
+              tone_id: 'joy',
+              tone_name: 'Joy'
+            },
+            {
+              score: 0.155833,
+              tone_id: 'sadness',
+              tone_name: 'Sadness'
+            }
+          ],
+          category_id: 'emotion_tone',
+          category_name: 'Emotion Tone'
         },
         {
-          "score": 0.91961,
-          "tone_id": "tentative",
-          "tone_name": "Tentative"
+          tones: [
+            {
+              score: 0.550576,
+              tone_id: 'analytical',
+              tone_name: 'Analytical'
+            },
+            {
+              score: 0,
+              tone_id: 'confident',
+              tone_name: 'Confident'
+            },
+            {
+              score: 0,
+              tone_id: 'tentative',
+              tone_name: 'Tentative'
+            }
+          ],
+          category_id: 'language_tone',
+          category_name: 'Language Tone'
+        },
+        {
+          tones: [
+            {
+              score: 0.570278,
+              tone_id: 'openness_big5',
+              tone_name: 'Openness'
+            },
+            {
+              score: 0.747083,
+              tone_id: 'conscientiousness_big5',
+              tone_name: 'Conscientiousness'
+            },
+            {
+              score: 0.88372,
+              tone_id: 'extraversion_big5',
+              tone_name: 'Extraversion'
+            },
+            {
+              score: 0.252507,
+              tone_id: 'agreeableness_big5',
+              tone_name: 'Agreeableness'
+            },
+            {
+              score: 0.770672,
+              tone_id: 'emotional_range_big5',
+              tone_name: 'Emotional Range'
+            }
+          ],
+          category_id: 'social_tone',
+          category_name: 'Social Tone'
         }
       ]
     }
   ]
 }
-
 
 module.exports = mockData;
