@@ -15,6 +15,7 @@ app.post('/analyze', async (request, response) => {
     (err, tone) => {
       if (err) {
         console.log(err);
+        throw(err)
       } else {
         response.status(200).json(tone)
       }
@@ -33,3 +34,5 @@ app.post('/mockAnalyze', async(request, response) => {
 app.listen(3000, () => {
   console.log('express running on localhost:3000')
 })
+
+module.exports = app
