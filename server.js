@@ -11,7 +11,7 @@ app.post('/analyze', async (request, response) => {
   const text = request.body.text
   response.setHeader('Content-Type', 'application/json')
 
-  toneAnalyzer.tone({ tone_input: text, content_type: 'text/plain'},
+  toneAnalyzer.tone({ tone_input: text, content_type: 'text/plain', sentences: true},
     (err, tone) => {
       if (err) {
         console.log(err);
