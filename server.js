@@ -26,9 +26,10 @@ app.post('/analyze', async (request, response) => {
 
 app.post('/mockAnalyze', async(request, response) => {
   const text = request.body.text
+  const random = Math.floor(Math.random() * mockData.length)
 
   response.setHeader('Content-Type', 'application/json')
-  response.status(200).json(mockData)
+  response.status(200).json(mockData[random])
 })
 
 app.listen(3000, () => {
