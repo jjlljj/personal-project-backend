@@ -726,6 +726,1189 @@ const mockData = [
         ]
       }
     ]
+  },
+  {
+    document_tone: {
+      tone_categories: [
+        {
+          tones: [
+            {
+              score: 0.042059,
+              tone_id: 'anger',
+              tone_name: 'Anger'
+            },
+            {
+              score: 0.051802,
+              tone_id: 'disgust',
+              tone_name: 'Disgust'
+            },
+            {
+              score: 0.419234,
+              tone_id: 'fear',
+              tone_name: 'Fear'
+            },
+            {
+              score: 0.689564,
+              tone_id: 'joy',
+              tone_name: 'Joy'
+            },
+            {
+              score: 0.527599,
+              tone_id: 'sadness',
+              tone_name: 'Sadness'
+            }
+          ],
+          category_id: 'emotion_tone',
+          category_name: 'Emotion Tone'
+        },
+        {
+          tones: [
+            {
+              score: 0.128474,
+              tone_id: 'analytical',
+              tone_name: 'Analytical'
+            },
+            {
+              score: 0.800618,
+              tone_id: 'confident',
+              tone_name: 'Confident'
+            },
+            {
+              score: 0,
+              tone_id: 'tentative',
+              tone_name: 'Tentative'
+            }
+          ],
+          category_id: 'language_tone',
+          category_name: 'Language Tone'
+        },
+        {
+          tones: [
+            {
+              score: 0.413166,
+              tone_id: 'openness_big5',
+              tone_name: 'Openness'
+            },
+            {
+              score: 0.710329,
+              tone_id: 'conscientiousness_big5',
+              tone_name: 'Conscientiousness'
+            },
+            {
+              score: 0.129845,
+              tone_id: 'extraversion_big5',
+              tone_name: 'Extraversion'
+            },
+            {
+              score: 0.64645,
+              tone_id: 'agreeableness_big5',
+              tone_name: 'Agreeableness'
+            },
+            {
+              score: 0.43814,
+              tone_id: 'emotional_range_big5',
+              tone_name: 'Emotional Range'
+            }
+          ],
+          category_id: 'social_tone',
+          category_name: 'Social Tone'
+        }
+      ]
+    },
+    sentences_tone: [
+      {
+        sentence_id: 0,
+        text: 'But I feel peaceful.',
+        input_from: 0,
+        input_to: 20,
+        tone_categories: [
+          {
+            tones: [
+              {
+                score: 0.03228,
+                tone_id: 'anger',
+                tone_name: 'Anger'
+              },
+              {
+                score: 0.032039,
+                tone_id: 'disgust',
+                tone_name: 'Disgust'
+              },
+              {
+                score: 0.118137,
+                tone_id: 'fear',
+                tone_name: 'Fear'
+              },
+              {
+                score: 0.511185,
+                tone_id: 'joy',
+                tone_name: 'Joy'
+              },
+              {
+                score: 0.287785,
+                tone_id: 'sadness',
+                tone_name: 'Sadness'
+              }
+            ],
+            category_id: 'emotion_tone',
+            category_name: 'Emotion Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0,
+                tone_id: 'analytical',
+                tone_name: 'Analytical'
+              },
+              {
+                score: 0,
+                tone_id: 'confident',
+                tone_name: 'Confident'
+              },
+              {
+                score: 0.88939,
+                tone_id: 'tentative',
+                tone_name: 'Tentative'
+              }
+            ],
+            category_id: 'language_tone',
+            category_name: 'Language Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.069562,
+                tone_id: 'openness_big5',
+                tone_name: 'Openness'
+              },
+              {
+                score: 0.235495,
+                tone_id: 'conscientiousness_big5',
+                tone_name: 'Conscientiousness'
+              },
+              {
+                score: 0.289608,
+                tone_id: 'extraversion_big5',
+                tone_name: 'Extraversion'
+              },
+              {
+                score: 0.609263,
+                tone_id: 'agreeableness_big5',
+                tone_name: 'Agreeableness'
+              },
+              {
+                score: 0.00925,
+                tone_id: 'emotional_range_big5',
+                tone_name: 'Emotional Range'
+              }
+            ],
+            category_id: 'social_tone',
+            category_name: 'Social Tone'
+          }
+        ]
+      },
+      {
+        sentence_id: 1,
+        text: 'Your success in the ring this morning was, to a small degree, my success.',
+        input_from: 21,
+        input_to: 94,
+        tone_categories: [
+          {
+            tones: [
+              {
+                score: 0.009516,
+                tone_id: 'anger',
+                tone_name: 'Anger'
+              },
+              {
+                score: 0.004535,
+                tone_id: 'disgust',
+                tone_name: 'Disgust'
+              },
+              {
+                score: 0.037734,
+                tone_id: 'fear',
+                tone_name: 'Fear'
+              },
+              {
+                score: 0.919911,
+                tone_id: 'joy',
+                tone_name: 'Joy'
+              },
+              {
+                score: 0.014325,
+                tone_id: 'sadness',
+                tone_name: 'Sadness'
+              }
+            ],
+            category_id: 'emotion_tone',
+            category_name: 'Emotion Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.039518,
+                tone_id: 'analytical',
+                tone_name: 'Analytical'
+              },
+              {
+                score: 0,
+                tone_id: 'confident',
+                tone_name: 'Confident'
+              },
+              {
+                score: 0,
+                tone_id: 'tentative',
+                tone_name: 'Tentative'
+              }
+            ],
+            category_id: 'language_tone',
+            category_name: 'Language Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.273089,
+                tone_id: 'openness_big5',
+                tone_name: 'Openness'
+              },
+              {
+                score: 0.722926,
+                tone_id: 'conscientiousness_big5',
+                tone_name: 'Conscientiousness'
+              },
+              {
+                score: 0.803427,
+                tone_id: 'extraversion_big5',
+                tone_name: 'Extraversion'
+              },
+              {
+                score: 0.584987,
+                tone_id: 'agreeableness_big5',
+                tone_name: 'Agreeableness'
+              },
+              {
+                score: 0.928831,
+                tone_id: 'emotional_range_big5',
+                tone_name: 'Emotional Range'
+              }
+            ],
+            category_id: 'social_tone',
+            category_name: 'Social Tone'
+          }
+        ]
+      },
+      {
+        sentence_id: 2,
+        text: 'Your future is assured.',
+        input_from: 95,
+        input_to: 118,
+        tone_categories: [
+          {
+            tones: [
+              {
+                score: 0.024937,
+                tone_id: 'anger',
+                tone_name: 'Anger'
+              },
+              {
+                score: 0.021809,
+                tone_id: 'disgust',
+                tone_name: 'Disgust'
+              },
+              {
+                score: 0.042252,
+                tone_id: 'fear',
+                tone_name: 'Fear'
+              },
+              {
+                score: 0.277705,
+                tone_id: 'joy',
+                tone_name: 'Joy'
+              },
+              {
+                score: 0.055662,
+                tone_id: 'sadness',
+                tone_name: 'Sadness'
+              }
+            ],
+            category_id: 'emotion_tone',
+            category_name: 'Emotion Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0,
+                tone_id: 'analytical',
+                tone_name: 'Analytical'
+              },
+              {
+                score: 0.97759,
+                tone_id: 'confident',
+                tone_name: 'Confident'
+              },
+              {
+                score: 0,
+                tone_id: 'tentative',
+                tone_name: 'Tentative'
+              }
+            ],
+            category_id: 'language_tone',
+            category_name: 'Language Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.495571,
+                tone_id: 'openness_big5',
+                tone_name: 'Openness'
+              },
+              {
+                score: 0.314603,
+                tone_id: 'conscientiousness_big5',
+                tone_name: 'Conscientiousness'
+              },
+              {
+                score: 0.583061,
+                tone_id: 'extraversion_big5',
+                tone_name: 'Extraversion'
+              },
+              {
+                score: 0.590524,
+                tone_id: 'agreeableness_big5',
+                tone_name: 'Agreeableness'
+              },
+              {
+                score: 0.592431,
+                tone_id: 'emotional_range_big5',
+                tone_name: 'Emotional Range'
+              }
+            ],
+            category_id: 'social_tone',
+            category_name: 'Social Tone'
+          }
+        ]
+      },
+      {
+        sentence_id: 3,
+        text: 'You will live, secure and safe, Wilbur.',
+        input_from: 119,
+        input_to: 158,
+        tone_categories: [
+          {
+            tones: [
+              {
+                score: 0.042818,
+                tone_id: 'anger',
+                tone_name: 'Anger'
+              },
+              {
+                score: 0.045594,
+                tone_id: 'disgust',
+                tone_name: 'Disgust'
+              },
+              {
+                score: 0.006853,
+                tone_id: 'fear',
+                tone_name: 'Fear'
+              },
+              {
+                score: 0.275676,
+                tone_id: 'joy',
+                tone_name: 'Joy'
+              },
+              {
+                score: 0.025193,
+                tone_id: 'sadness',
+                tone_name: 'Sadness'
+              }
+            ],
+            category_id: 'emotion_tone',
+            category_name: 'Emotion Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.801827,
+                tone_id: 'analytical',
+                tone_name: 'Analytical'
+              },
+              {
+                score: 0.92125,
+                tone_id: 'confident',
+                tone_name: 'Confident'
+              },
+              {
+                score: 0,
+                tone_id: 'tentative',
+                tone_name: 'Tentative'
+              }
+            ],
+            category_id: 'language_tone',
+            category_name: 'Language Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.058162,
+                tone_id: 'openness_big5',
+                tone_name: 'Openness'
+              },
+              {
+                score: 0.513919,
+                tone_id: 'conscientiousness_big5',
+                tone_name: 'Conscientiousness'
+              },
+              {
+                score: 0.504526,
+                tone_id: 'extraversion_big5',
+                tone_name: 'Extraversion'
+              },
+              {
+                score: 0.676812,
+                tone_id: 'agreeableness_big5',
+                tone_name: 'Agreeableness'
+              },
+              {
+                score: 0.759668,
+                tone_id: 'emotional_range_big5',
+                tone_name: 'Emotional Range'
+              }
+            ],
+            category_id: 'social_tone',
+            category_name: 'Social Tone'
+          }
+        ]
+      },
+      {
+        sentence_id: 4,
+        text: 'Nothing can harm you now.',
+        input_from: 159,
+        input_to: 184,
+        tone_categories: [
+          {
+            tones: [
+              {
+                score: 0.088473,
+                tone_id: 'anger',
+                tone_name: 'Anger'
+              },
+              {
+                score: 0.074744,
+                tone_id: 'disgust',
+                tone_name: 'Disgust'
+              },
+              {
+                score: 0.091248,
+                tone_id: 'fear',
+                tone_name: 'Fear'
+              },
+              {
+                score: 0.179551,
+                tone_id: 'joy',
+                tone_name: 'Joy'
+              },
+              {
+                score: 0.148831,
+                tone_id: 'sadness',
+                tone_name: 'Sadness'
+              }
+            ],
+            category_id: 'emotion_tone',
+            category_name: 'Emotion Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0,
+                tone_id: 'analytical',
+                tone_name: 'Analytical'
+              },
+              {
+                score: 0,
+                tone_id: 'confident',
+                tone_name: 'Confident'
+              },
+              {
+                score: 0,
+                tone_id: 'tentative',
+                tone_name: 'Tentative'
+              }
+            ],
+            category_id: 'language_tone',
+            category_name: 'Language Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.464374,
+                tone_id: 'openness_big5',
+                tone_name: 'Openness'
+              },
+              {
+                score: 0.416325,
+                tone_id: 'conscientiousness_big5',
+                tone_name: 'Conscientiousness'
+              },
+              {
+                score: 0.265999,
+                tone_id: 'extraversion_big5',
+                tone_name: 'Extraversion'
+              },
+              {
+                score: 0.632551,
+                tone_id: 'agreeableness_big5',
+                tone_name: 'Agreeableness'
+              },
+              {
+                score: 0.28407,
+                tone_id: 'emotional_range_big5',
+                tone_name: 'Emotional Range'
+              }
+            ],
+            category_id: 'social_tone',
+            category_name: 'Social Tone'
+          }
+        ]
+      },
+      {
+        sentence_id: 5,
+        text: 'These autumn days will shorten and grow cold.',
+        input_from: 185,
+        input_to: 230,
+        tone_categories: [
+          {
+            tones: [
+              {
+                score: 0.019652,
+                tone_id: 'anger',
+                tone_name: 'Anger'
+              },
+              {
+                score: 0.129518,
+                tone_id: 'disgust',
+                tone_name: 'Disgust'
+              },
+              {
+                score: 0.146914,
+                tone_id: 'fear',
+                tone_name: 'Fear'
+              },
+              {
+                score: 0.312402,
+                tone_id: 'joy',
+                tone_name: 'Joy'
+              },
+              {
+                score: 0.245695,
+                tone_id: 'sadness',
+                tone_name: 'Sadness'
+              }
+            ],
+            category_id: 'emotion_tone',
+            category_name: 'Emotion Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0,
+                tone_id: 'analytical',
+                tone_name: 'Analytical'
+              },
+              {
+                score: 0,
+                tone_id: 'confident',
+                tone_name: 'Confident'
+              },
+              {
+                score: 0,
+                tone_id: 'tentative',
+                tone_name: 'Tentative'
+              }
+            ],
+            category_id: 'language_tone',
+            category_name: 'Language Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.287025,
+                tone_id: 'openness_big5',
+                tone_name: 'Openness'
+              },
+              {
+                score: 0.230931,
+                tone_id: 'conscientiousness_big5',
+                tone_name: 'Conscientiousness'
+              },
+              {
+                score: 0.321796,
+                tone_id: 'extraversion_big5',
+                tone_name: 'Extraversion'
+              },
+              {
+                score: 0.454705,
+                tone_id: 'agreeableness_big5',
+                tone_name: 'Agreeableness'
+              },
+              {
+                score: 0.022587,
+                tone_id: 'emotional_range_big5',
+                tone_name: 'Emotional Range'
+              }
+            ],
+            category_id: 'social_tone',
+            category_name: 'Social Tone'
+          }
+        ]
+      },
+      {
+        sentence_id: 6,
+        text: 'The leaves will shake loose from the trees and fall.',
+        input_from: 231,
+        input_to: 283,
+        tone_categories: [
+          {
+            tones: [
+              {
+                score: 0.100111,
+                tone_id: 'anger',
+                tone_name: 'Anger'
+              },
+              {
+                score: 0.014388,
+                tone_id: 'disgust',
+                tone_name: 'Disgust'
+              },
+              {
+                score: 0.536283,
+                tone_id: 'fear',
+                tone_name: 'Fear'
+              },
+              {
+                score: 0.425115,
+                tone_id: 'joy',
+                tone_name: 'Joy'
+              },
+              {
+                score: 0.071285,
+                tone_id: 'sadness',
+                tone_name: 'Sadness'
+              }
+            ],
+            category_id: 'emotion_tone',
+            category_name: 'Emotion Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0,
+                tone_id: 'analytical',
+                tone_name: 'Analytical'
+              },
+              {
+                score: 0,
+                tone_id: 'confident',
+                tone_name: 'Confident'
+              },
+              {
+                score: 0,
+                tone_id: 'tentative',
+                tone_name: 'Tentative'
+              }
+            ],
+            category_id: 'language_tone',
+            category_name: 'Language Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.404131,
+                tone_id: 'openness_big5',
+                tone_name: 'Openness'
+              },
+              {
+                score: 0.315994,
+                tone_id: 'conscientiousness_big5',
+                tone_name: 'Conscientiousness'
+              },
+              {
+                score: 0.475926,
+                tone_id: 'extraversion_big5',
+                tone_name: 'Extraversion'
+              },
+              {
+                score: 0.359777,
+                tone_id: 'agreeableness_big5',
+                tone_name: 'Agreeableness'
+              },
+              {
+                score: 0.518462,
+                tone_id: 'emotional_range_big5',
+                tone_name: 'Emotional Range'
+              }
+            ],
+            category_id: 'social_tone',
+            category_name: 'Social Tone'
+          }
+        ]
+      },
+      {
+        sentence_id: 7,
+        text: 'Christmas will come, and the snows of winter.',
+        input_from: 284,
+        input_to: 329,
+        tone_categories: [
+          {
+            tones: [
+              {
+                score: 0.039304,
+                tone_id: 'anger',
+                tone_name: 'Anger'
+              },
+              {
+                score: 0.011559,
+                tone_id: 'disgust',
+                tone_name: 'Disgust'
+              },
+              {
+                score: 0.02711,
+                tone_id: 'fear',
+                tone_name: 'Fear'
+              },
+              {
+                score: 0.612467,
+                tone_id: 'joy',
+                tone_name: 'Joy'
+              },
+              {
+                score: 0.31768,
+                tone_id: 'sadness',
+                tone_name: 'Sadness'
+              }
+            ],
+            category_id: 'emotion_tone',
+            category_name: 'Emotion Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0,
+                tone_id: 'analytical',
+                tone_name: 'Analytical'
+              },
+              {
+                score: 0,
+                tone_id: 'confident',
+                tone_name: 'Confident'
+              },
+              {
+                score: 0,
+                tone_id: 'tentative',
+                tone_name: 'Tentative'
+              }
+            ],
+            category_id: 'language_tone',
+            category_name: 'Language Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.229082,
+                tone_id: 'openness_big5',
+                tone_name: 'Openness'
+              },
+              {
+                score: 0.238691,
+                tone_id: 'conscientiousness_big5',
+                tone_name: 'Conscientiousness'
+              },
+              {
+                score: 0.204181,
+                tone_id: 'extraversion_big5',
+                tone_name: 'Extraversion'
+              },
+              {
+                score: 0.380576,
+                tone_id: 'agreeableness_big5',
+                tone_name: 'Agreeableness'
+              },
+              {
+                score: 0.14121,
+                tone_id: 'emotional_range_big5',
+                tone_name: 'Emotional Range'
+              }
+            ],
+            category_id: 'social_tone',
+            category_name: 'Social Tone'
+          }
+        ]
+      },
+      {
+        sentence_id: 8,
+        text: 'You will live to enjoy the beauty of the frozen world, for you mean a great deal to Zuckerman and he will not harm you, ever.',
+        input_from: 330,
+        input_to: 455,
+        tone_categories: [
+          {
+            tones: [
+              {
+                score: 0.023904,
+                tone_id: 'anger',
+                tone_name: 'Anger'
+              },
+              {
+                score: 0.010085,
+                tone_id: 'disgust',
+                tone_name: 'Disgust'
+              },
+              {
+                score: 0.005424,
+                tone_id: 'fear',
+                tone_name: 'Fear'
+              },
+              {
+                score: 0.930779,
+                tone_id: 'joy',
+                tone_name: 'Joy'
+              },
+              {
+                score: 0.030202,
+                tone_id: 'sadness',
+                tone_name: 'Sadness'
+              }
+            ],
+            category_id: 'emotion_tone',
+            category_name: 'Emotion Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.318744,
+                tone_id: 'analytical',
+                tone_name: 'Analytical'
+              },
+              {
+                score: 0.238608,
+                tone_id: 'confident',
+                tone_name: 'Confident'
+              },
+              {
+                score: 0,
+                tone_id: 'tentative',
+                tone_name: 'Tentative'
+              }
+            ],
+            category_id: 'language_tone',
+            category_name: 'Language Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.501835,
+                tone_id: 'openness_big5',
+                tone_name: 'Openness'
+              },
+              {
+                score: 0.981511,
+                tone_id: 'conscientiousness_big5',
+                tone_name: 'Conscientiousness'
+              },
+              {
+                score: 0.398779,
+                tone_id: 'extraversion_big5',
+                tone_name: 'Extraversion'
+              },
+              {
+                score: 0.864899,
+                tone_id: 'agreeableness_big5',
+                tone_name: 'Agreeableness'
+              },
+              {
+                score: 0.844008,
+                tone_id: 'emotional_range_big5',
+                tone_name: 'Emotional Range'
+              }
+            ],
+            category_id: 'social_tone',
+            category_name: 'Social Tone'
+          }
+        ]
+      },
+      {
+        sentence_id: 9,
+        text: 'Winter will pass, the days will lengthen, the ice will melt in the pasture pond.',
+        input_from: 456,
+        input_to: 536,
+        tone_categories: [
+          {
+            tones: [
+              {
+                score: 0.042556,
+                tone_id: 'anger',
+                tone_name: 'Anger'
+              },
+              {
+                score: 0.054608,
+                tone_id: 'disgust',
+                tone_name: 'Disgust'
+              },
+              {
+                score: 0.061276,
+                tone_id: 'fear',
+                tone_name: 'Fear'
+              },
+              {
+                score: 0.232262,
+                tone_id: 'joy',
+                tone_name: 'Joy'
+              },
+              {
+                score: 0.667518,
+                tone_id: 'sadness',
+                tone_name: 'Sadness'
+              }
+            ],
+            category_id: 'emotion_tone',
+            category_name: 'Emotion Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0,
+                tone_id: 'analytical',
+                tone_name: 'Analytical'
+              },
+              {
+                score: 0,
+                tone_id: 'confident',
+                tone_name: 'Confident'
+              },
+              {
+                score: 0,
+                tone_id: 'tentative',
+                tone_name: 'Tentative'
+              }
+            ],
+            category_id: 'language_tone',
+            category_name: 'Language Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.382746,
+                tone_id: 'openness_big5',
+                tone_name: 'Openness'
+              },
+              {
+                score: 0.23918,
+                tone_id: 'conscientiousness_big5',
+                tone_name: 'Conscientiousness'
+              },
+              {
+                score: 0.16042,
+                tone_id: 'extraversion_big5',
+                tone_name: 'Extraversion'
+              },
+              {
+                score: 0.158281,
+                tone_id: 'agreeableness_big5',
+                tone_name: 'Agreeableness'
+              },
+              {
+                score: 0.340892,
+                tone_id: 'emotional_range_big5',
+                tone_name: 'Emotional Range'
+              }
+            ],
+            category_id: 'social_tone',
+            category_name: 'Social Tone'
+          }
+        ]
+      },
+      {
+        sentence_id: 10,
+        text: 'The song sparrow will return and sing, the frogs will awake, the warm wind will blow again.',
+        input_from: 537,
+        input_to: 628,
+        tone_categories: [
+          {
+            tones: [
+              {
+                score: 0.074119,
+                tone_id: 'anger',
+                tone_name: 'Anger'
+              },
+              {
+                score: 0.005604,
+                tone_id: 'disgust',
+                tone_name: 'Disgust'
+              },
+              {
+                score: 0.074089,
+                tone_id: 'fear',
+                tone_name: 'Fear'
+              },
+              {
+                score: 0.592807,
+                tone_id: 'joy',
+                tone_name: 'Joy'
+              },
+              {
+                score: 0.293229,
+                tone_id: 'sadness',
+                tone_name: 'Sadness'
+              }
+            ],
+            category_id: 'emotion_tone',
+            category_name: 'Emotion Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0,
+                tone_id: 'analytical',
+                tone_name: 'Analytical'
+              },
+              {
+                score: 0,
+                tone_id: 'confident',
+                tone_name: 'Confident'
+              },
+              {
+                score: 0,
+                tone_id: 'tentative',
+                tone_name: 'Tentative'
+              }
+            ],
+            category_id: 'language_tone',
+            category_name: 'Language Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.515092,
+                tone_id: 'openness_big5',
+                tone_name: 'Openness'
+              },
+              {
+                score: 0.226109,
+                tone_id: 'conscientiousness_big5',
+                tone_name: 'Conscientiousness'
+              },
+              {
+                score: 0.104644,
+                tone_id: 'extraversion_big5',
+                tone_name: 'Extraversion'
+              },
+              {
+                score: 0.456346,
+                tone_id: 'agreeableness_big5',
+                tone_name: 'Agreeableness'
+              },
+              {
+                score: 0.283848,
+                tone_id: 'emotional_range_big5',
+                tone_name: 'Emotional Range'
+              }
+            ],
+            category_id: 'social_tone',
+            category_name: 'Social Tone'
+          }
+        ]
+      },
+      {
+        sentence_id: 11,
+        text: 'All these sights and sounds and smells will be yours to enjoy, Wilbur—this lovely world, these precious days…',
+        input_from: 629,
+        input_to: 738,
+        tone_categories: [
+          {
+            tones: [
+              {
+                score: 0.007034,
+                tone_id: 'anger',
+                tone_name: 'Anger'
+              },
+              {
+                score: 0.217136,
+                tone_id: 'disgust',
+                tone_name: 'Disgust'
+              },
+              {
+                score: 0.004443,
+                tone_id: 'fear',
+                tone_name: 'Fear'
+              },
+              {
+                score: 0.794473,
+                tone_id: 'joy',
+                tone_name: 'Joy'
+              },
+              {
+                score: 0.011313,
+                tone_id: 'sadness',
+                tone_name: 'Sadness'
+              }
+            ],
+            category_id: 'emotion_tone',
+            category_name: 'Emotion Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0,
+                tone_id: 'analytical',
+                tone_name: 'Analytical'
+              },
+              {
+                score: 0.638987,
+                tone_id: 'confident',
+                tone_name: 'Confident'
+              },
+              {
+                score: 0,
+                tone_id: 'tentative',
+                tone_name: 'Tentative'
+              }
+            ],
+            category_id: 'language_tone',
+            category_name: 'Language Tone'
+          },
+          {
+            tones: [
+              {
+                score: 0.706076,
+                tone_id: 'openness_big5',
+                tone_name: 'Openness'
+              },
+              {
+                score: 0.941782,
+                tone_id: 'conscientiousness_big5',
+                tone_name: 'Conscientiousness'
+              },
+              {
+                score: 0.864536,
+                tone_id: 'extraversion_big5',
+                tone_name: 'Extraversion'
+              },
+              {
+                score: 0.996073,
+                tone_id: 'agreeableness_big5',
+                tone_name: 'Agreeableness'
+              },
+              {
+                score: 0.260496,
+                tone_id: 'emotional_range_big5',
+                tone_name: 'Emotional Range'
+              }
+            ],
+            category_id: 'social_tone',
+            category_name: 'Social Tone'
+          }
+        ]
+      }
+    ]
   }
 ]
 
