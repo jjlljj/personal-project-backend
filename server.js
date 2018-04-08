@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.set('port', process.env.PORT || 3000);
 
 app.use((req, res, next) => {
-  const allowedOrigins = ['http://tonedetector.surge.sh/'];
+  const allowedOrigins = ['http://tonedetector.surge.sh/', 'https://tonedetector.surge.sh/'];
   const origin = req.headers.origin;
   if(allowedOrigins.indexOf(origin) > -1){
        res.setHeader('Access-Control-Allow-Origin', origin);
