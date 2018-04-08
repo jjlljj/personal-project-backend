@@ -34,7 +34,7 @@ app.post('/mockAnalyze', async(request, response) => {
 })
 
 app.listen(app.get('port'), () => {
-  console.log(`express running on ${app.get('port')`)
+  console.log(`express running on ${app.get('port')}`)
 })
 
 module.exports = app
