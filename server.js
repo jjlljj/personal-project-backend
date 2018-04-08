@@ -6,6 +6,7 @@ const toneAnalyzer = require('./src/serviceHelper')
 const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
+app.set('port', process.env.PORT || 3000);
 
 app.post('/analyze', async (request, response) => {
   const text = request.body.text
@@ -32,8 +33,8 @@ app.post('/mockAnalyze', async(request, response) => {
   response.status(200).json(mockData[random])
 })
 
-app.listen(3000, () => {
-  console.log('express running on localhost:3000')
+app.listen(app.get('port'), () => {
+  console.log(`express running on ${app.get('port')`)
 })
 
 module.exports = app
